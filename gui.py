@@ -8,7 +8,7 @@ if not os.path.exists("todos.txt"):
         pass
 
 
-sg.Theme("Black")
+sg.theme("Black")
 clock = sg.Text("", key="clock")
 label = sg.Text("Type in a to-do")
 input_box = sg.InputText(tooltip="Enter to-do", key="todo")
